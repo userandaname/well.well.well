@@ -1,12 +1,13 @@
 Hiya, this is Zayaan AR.
 
-I have come here to follow up on a previous incident with a user by the display name of "Tempus Fugit 🍄", username of "eatallthemushrooms", and userID of "1029171830973530132", has been going against not only Discord's ToS, but also their Developer ToS as well.
+I have come here to follow up on a previous incident with a user by the display name of "Seifcume", username of "seifcume", and userID of "1029171830973530132", has been going against not only Discord's ToS, but also their Developer ToS as well.
 
 In a jist of things, this user, mainly being their alternative account under the display name of "Cortana 🎗", username of "microsoft_cortana", and userID of "1183599021365932139", has been breaking Discord's ToS, developer ToS, and is also attempting to spread misinformation about AtomLabs services, mainly being our signature bot, Atom, as well as spreading misinformation about one of our partners, Sokora, with their in-development Discord bot to soon arrive to the scene.
 
 I am sending this document on behalf of the Sokora team, and for AtomLabs as a whole, considering I literally own AtomLabs.
 
-I will refer to these users as "Tempus" / "Tempus Fugit", and "Cortana" respectively for context.
+I will refer to these users as "Tempus" / "Tempus Fugit", and "Cortana" respectively for context. (Old display name of seifcume was Tempus)
+
 Now that I've explained an introduction for some context, let's get right into the underlying issue.
 
 Firstly, Tempus Fugit owns a bot under the name of Garply. Garply, and thus Tempus Fugit, break Discord Developer ToS by underlying features within their bot which allow for unauthorized code execution which can be used to run raw Python code to attack any server the bot was a part of. This was an .eval command which had been completely undocumented to the consumer, with this execution being locked to Tempus Fugit's userID. I shouldn't have to explain why this is already bad for servers with the bot in it, but in a gist, this allows for any server with the bot in it to be exploited whenever Tempus Fugit likes via running their own Python code on these servers.
